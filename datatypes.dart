@@ -23,7 +23,13 @@
    bool isItTrue1 = true;
    var isItTrue2 = false;
 
-   print('isItTrue1: $isItTrue11 | isItTrue2: $isItTrue2 \n');
+   print('isItTrue1: $isItTrue1 | isItTrue2: $isItTrue2 \n');
 
-   //
+   //dynamic variable declaration
+   dynamic weakVariable = 100;
+   
+   print('WeakVariable 1: $weakVariable \n');
+
+   weakVariable = 'Dart Programming';
+   print('WeakVariable 2: $weakVariable');
  }
