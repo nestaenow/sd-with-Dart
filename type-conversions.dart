@@ -10,4 +10,13 @@ main(){
   //same is done for an string to double conversion
   var onePointOne = double.parse('1.1');
   assert(onePointOne == 1.1);
+
+/*Now to convert a an integer to a string we
+do as follows */
+  String oneAsString = 1.toString();
+  assert(oneAsString == '1');
+
+  //for a floating point number...
+  String piAsString = 3.14159.toStringAsPrecision(2);
+  assert(piAsString == 3.14);
 }
