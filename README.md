@@ -1,2 +1,2 @@
 # sd-with-Dart
-Started code with dart, to started developing my own apps.
+Started code with dart, to started developing my own apps, using Flutter.😊✌🏼
