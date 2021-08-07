@@ -17,6 +17,6 @@ do as follows */
   assert(oneAsString == '1');
 
   //for a floating point number...
-  String piAsString = 3.14159.toStringAsPrecision(2);
-  assert(piAsString == 3.14);
+  String piAsString = 3.14159.toStringAsPrecision(3);
+  assert(piAsString == 3.141);
 }
