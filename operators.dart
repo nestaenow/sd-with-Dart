@@ -1,3 +1,7 @@
+class numx {
+  int Numx = 17;
+}
+
 main (){
   int num = 20 + 11;
   num = num - 2;
@@ -34,4 +38,19 @@ main (){
   if(num != 20){                            //operatorfor logical NOT – !
     print('Finished successfully');
   }
+
+  //Tenary operator
+  var x = 100;
+  var result = x % 2 == 0 ? 'Even' : 'Odd';
+
+  print(result);
+
+  //Testing my numx class
+  var n = numx();
+  int number;
+
+  number = n.Numx;
+  
+  print(number);
+
 }
