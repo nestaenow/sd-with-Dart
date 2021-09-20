@@ -25,12 +25,13 @@ main (){
   print(num);
 
   //logical operators
-  if(num > 2 && num < 30){
+  if(num > 2 && num < 30){                  //operatorfor logical AND – &&
     print('Great!!');
   }
-  else if(num > 2 || num == 0){
+  else if(num > 2 || num == 0){             //operatorfor logical OR – ||
     print('Too bad!');
   }
-
-  
+  if(num != 20){                            //operatorfor logical NOT – !
+    print('Finished successfully');
+  }
 }
