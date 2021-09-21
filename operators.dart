@@ -45,6 +45,11 @@ main (){
 
   print(result);
 
+  //Testing operator
+  if(x is int){
+    print('integer');
+  }
+
   //Testing my numx class
   var n = numx();
   int number;
