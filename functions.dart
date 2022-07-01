@@ -1,5 +1,10 @@
 void main() {
   List names = ['luca', 'lucy', 'lucio'];
+  //Adding new names to the List array/list
+  names.add('Clair');
+
+  //Removing a name from the list
+  names.remove('luca');
   print(names);
 
   //calling external fxns in main()
