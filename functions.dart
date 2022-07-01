@@ -7,4 +7,9 @@ void main() {
   print(name);
 }
 
-String lastName() => 'Nesta'; //one way of w
+String lastName() => 'Nesta'; //one way of writing fxns
+
+//Another way to write the above fxn is as so...
+// String lastName() {
+//   return 'Nesta';
+// }
